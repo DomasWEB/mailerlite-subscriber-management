@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+
+$primary: #00c662;
+$primary-darker: #008848;
+@import "~buefy/src/scss/buefy-build";
+
+#header {
+  border-bottom: 15px solid #00c662;
+}
+
+.navbar {
+  padding: 1rem 2rem;
+}
+
+#content {
+  padding: 2rem 0;
+  background: $primary-darker;
+}
+
+footer {
+  margin-top: 2rem;
+}
